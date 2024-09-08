@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Protfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Project</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- DarkMode -->
+            <div class="mode">
+                <div class="moon-sun" id="toogle-switch">
+                    <i class="material-symbols-outlined" id="moon">dark_mode</i>
+                    <i class="material-symbols-outlined" id="sun">light_mode</i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <div class="uil uil-bars" onclick="myMenuFunction()"></div>
+            </div>
+        </nav>
+        
+        <!-- Main -->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Ayesha! I'm frontend developer with 3+ years of experience</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                        <button class="btn">Download CV<i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./girl-2.png">
+                    </div>
+                </div>
+            </section>
+            <!-- about-box -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="./girl-2.png" width="100px" height="100px" class="profile" />
+                                    <h2>Frontend Developer</h2>
+                                    <p>My name is Ayesha! I'm frontend developer with 3+ years experience.</p>
+                            </figure>
+                            <button class="about-me-btn">Hire me</button>
+                        </div>
+                    </div>
+                    <div class="skill-1">
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar html">
+                                    <span class="skill-per">
+                                        <span class="tooltip">100%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                                <div class="skill-bar css">
+                                    <span class="skill-per">
+                                        <span class="tooltip">90%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">Bootstrap/Tailwind</span>
+                                <div class="skill-bar Bootstrap-Tailwind">
+                                    <span class="skill-per">
+                                        <span class="tooltip">85%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">JavaScript</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per javascript">
+                                        <span class="tooltip">70%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">React JS</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per react-js">
+                                        <span class="tooltip">50%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- projects box -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label>50+ Finished Projects</label>
+                    </div>
+
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label>70+ Happy Clients</label>
+                    </div>
+
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>3+ Years in Frontend Development</label>
+                    </div>
+                </div>
+            </section>
+            <!-- contact box -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have project in your mind ,contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email:afzalaashg36@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone:03123456789</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="inpiut-field" placeholder=" Your Name">
+                                <input type="text" class="inpiut-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-links">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">SaishaDev</a> - All rights reserved
+                    2024</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
